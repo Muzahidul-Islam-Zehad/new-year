@@ -168,3 +168,43 @@
 .welcome img{
     padding: 30px;
 }
+
+/* schedule style */
+.schedule{
+    display: flex;
+    text-align: center;
+    margin-bottom: 140px;
+    justify-content: center;
+}
+.schedule-container{
+    background-image: linear-gradient(to top,rgba(255, 0, 0, 0),rgba(255, 0, 0, 0.4));
+    width: 1320px;
+    height: 500px;
+    border-radius: 20px;
+    
+}
+
+.schedule-container div{
+    margin: 130px 385px;
+}
+
+.place, .date, .time{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;;
+}
+
+.schedule-container span{
+    color: red;
+}
+
+.schedule-container .btn2{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
