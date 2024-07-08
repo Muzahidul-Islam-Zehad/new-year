@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+
+/* font merriweather */
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+/* font inter */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* Banner Style */
+.banner-container{
+    width: 1320px;  
+    height: 600px;
+    background-image:linear-gradient(to top,rgba(0,0,0,0), rgba(0,0,0,0.7)),url('../images/Banner\ Image.png') ;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px 140px;
+    border-radius: 20px;
+    
+}
+.banner{
+    height:600px;
+    /* display: block; */
+    /* padding: 50% 0%; */
+    text-align: center;
+    align-content: center;
+    
+}
+
+.banner-head{
+    font-size: 32px;
+    color: white;
+}
+.banner-description {
+    font-size: 72px;
+    color: white;
+}
+
+/* discount styles */
+
+.discount-container{
+    text-align: center;
+    margin: 120px 0px;
+    
+}
+.discount{
+    font-size: 88px;
+    color: red;
+}
+.titleAndDescription{
+    margin: 48px 0px;
+}
+.discount-title{
+    font-size: 24px;
+    color: red;
+}
+
+.discount-description{
+    font-size: 48px;
+}
+
+/* Welcome style */
+
