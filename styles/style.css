@@ -209,3 +209,44 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+/* comming soon  styles */
+
+.comming-soon{
+    
+    margin: 140px 120px;
+}
+
+.comming-soon-contaner{
+    display: flex;
+    gap: 70px;
+    align-items: center ;
+}
+
+.comming-soon-contaner .title1{
+    color: red;
+    font-size: 24px;
+}
+.comming-soon-contaner .heading{
+    font-size: 48px;
+}
+.comming-soon-contaner .description1{
+    font-size: 20px;
+    color: rgba(0,0,0,0.6);
+}
+.comming-soon-contaner > img{
+    border:20px solid red;
+    border-radius: 50%;
+    padding:30px;
+}
+
+.comming-soon-contaner .title2
+{
+    color: red;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.comming-soon-contaner div > img{
+    margin-top: 40px;
+}
