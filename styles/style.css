@@ -215,20 +215,23 @@
 .comming-soon{
     
     margin: 140px 120px;
+    padding: 0px 50px;
 }
 
 .comming-soon-contaner{
     display: flex;
-    gap: 70px;
     align-items: center ;
+    gap: 40px;
 }
 
 .comming-soon-contaner .title1{
     color: red;
     font-size: 24px;
+    margin-bottom: 16px;
 }
 .comming-soon-contaner .heading{
     font-size: 48px;
+    margin-bottom: 22px;
 }
 .comming-soon-contaner .description1{
     font-size: 20px;
@@ -245,8 +248,61 @@
     color: red;
     font-weight: bold;
     font-size: 48px;
+    margin-bottom: 16px;
 }
 
 .comming-soon-contaner div > img{
     margin-top: 40px;
 }
+
+
+/* holiday sells styles */
+
+.holiday-sell{
+    
+    margin: 140px 120px;
+    margin-bottom: 200px;
+}
+.holiday-container{
+    text-align: center;
+}
+
+.holiday-container title{
+    font-size: 24px;
+    color: #070211;
+    margin-bottom: 16px;
+}
+
+.holiday-container .head{
+    font-size: 72px;
+    margin-bottom: 28px;
+}
+.holiday-container .head span{
+    color: red;
+}
+
+.holiday-container .description{
+    font-size: 20px;
+    color: rgba(0,0,0,0.6);
+}
+
+
+/* 50% discount styles */
+
+.discount50{
+    margin: 140px 120px;
+}
+.image-container{
+    position: relative;
+    
+}
+.image-container .box{
+    position: absolute;
+    top: -90px;
+
+}
+.image-container .discount-badge{
+    position: relative;
+    right: -900px;
+}
+
