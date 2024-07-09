@@ -306,3 +306,76 @@
     right: -900px;
 }
 
+/* portfolio style */
+.portfolio{
+    margin: 60px 40px 60px 140px;
+}
+
+.portfolio .title{
+     font-size: 24px;
+     font-weight: 700;
+     color: red;
+     margin-bottom: 16px;
+}
+.portfolio .heading{
+    font-size: 48px;
+    margin-bottom: 22px;
+
+}
+
+.portfolio .description{
+    font-size: 20px;
+    color: rgba(0,0,0,0.4);
+    margin-bottom: 48px;
+
+}
+
+.portfolio .images-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* subscribe style */
+
+.subscribe{
+    margin: 140px 120px;
+}
+.subscribe-container{
+    text-align: center;
+    background-color: rgba(255, 0, 0,0.05);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.subscribe-container .title{
+    font-size: 48px;
+}
+.subscribe-container .description{
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 48px;
+    
+}
+
+.email{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+    padding-left: 20px;
+}
+.submit{
+    height: 42px;
+    width: 100px;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding-right: 20px;
+    position: relative;
+    left: -3px;
+}
